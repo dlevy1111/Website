@@ -4,25 +4,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="A personal website for David Levy.">
-  <meta name="keywords" content="portfolio, david levy, engineering, student">
+  <meta name="keywords" content="portfolio, david, levy, engineering, student, ku, kansas, university, about, website">
   <meta name="author" content="David Levy">
   <meta name="viewport" content="width-device-width, minimum-scale=1.0, initial-scale=1.0">
   <title>David Levy</title>
-  <link rel="stylesheet" href="styles/stylesheet.css">
+  <link rel="icon" type="image/ico" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/index_stylesheet.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
   <script src="scripts/p5.js"></script>
 </head>
 
 <body>
-  <!--
-  <h1>this is david levy's website!</h1>
-  <a href="https://github.com/dlevy1111">go to my github</a>
-  -->
+  <div id="page_wrapper">
+    <header id="header"></header>
+    <div id="p5canvas">
+    </div>
+    <div id="titlediv">
+      <h1 id="title_name">David Levy</h1>
+    </div>
 
-  <div id="p5canvas">
+    <!-- <div id="some_text">
+      <p>Welcome to my website!</p>
+      <p>While it's still in development, there isn't much to do here. In the mean time, you can watch Conway's Game of
+        Life!</p>
+    </div> -->
+
+    <div class="buttons" id="about_me_button_div">
+      <button id="about_me" onclick="location.href = 'about.html';">stuff about me</button>
+    </div>
+
+    <div class="buttons" id="things_i_do_button_div">
+      <button id="what_i_do">things I do</button>
+    </div>
+
+    <div class="buttons" id="where_i_am_button_div">
+      <button id="where_i_am">where I am</button>
+    </div>
   </div>
+  <!-- <script src="scripts/scripts.js"></script> -->
+  <script src="scripts/conwaygame.js" id="wavy_lines"></script>
 
-  <script src="scripts/scripts.js"></script>
-  <script src="scripts/wavy_lines.js" id="wavy_lines"></script>
 </body>
 
 </html>
