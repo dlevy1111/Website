@@ -1,0 +1,90 @@
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    border-collapse: separate;
+    width: 100%;
+    height: 100%;
+    background: #4d4d4d;
+}
+
+#p5canvas {
+    z-index: -1;
+}
+
+#header {
+    background: transparent;
+}
+
+#titlediv {
+    color: white;
+    text-align: center;
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: "Press Start 2P", "Bungee Shade", sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+/* 
+#some_text {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    font-family: "Press Start 2P", "Bungee Shade", sans-serif;
+    transform: translate(-50%, 60%);
+} */
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    /* transform: translate(-50%); */
+    /* color: rgb(255, 255, 255);  */
+
+
+    /* font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal;  */
+}
+
+#about_me_button_div {
+    transform: translate(-50%, -50%);
+}
+
+#about_me {
+    font-family: "Press Start 2P", "Bungee Shade", sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 11px;
+    border-radius: 0px;
+}
+
+#things_i_do_button_div {
+    transform: translate(-50%, 50%);
+}
+
+#what_i_do {
+    font-family: "Press Start 2P", "Bungee Shade", sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 11px;
+    border-radius: 0px;
+}
+
+#where_i_am_button_div {
+    transform: translate(-50%, 150%);
+}
+
+#where_i_am {
+    font-family: "Press Start 2P", "Bungee Shade", sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 11px;
+    border-radius: 0px;
+}
