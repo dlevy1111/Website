@@ -31,19 +31,14 @@ body {
 
 .buttons {
     position: absolute;
-    /* margin-top: 40%; */
-    /* margin-right: 80%; */
-    /* margin-left: 20%; */
-    top: 50%;
     left: 50%;
+    top: 45%;
+    transform: translate(-50%, 0);
     z-index: 2;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 
 .buttons div {
-    -webkit-appearance: none ! important;
+    text-align: center;
 }
 
 .buttons div button {
