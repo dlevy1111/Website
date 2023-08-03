@@ -29,62 +29,29 @@ body {
     transform: translate(-50%, -100%);
 }
 
-/* 
-#some_text {
-    position: absolute;
-    color: white;
-    top: 50%;
-    left: 50%;
-    font-family: "Press Start 2P", "Bungee Shade", sans-serif;
-    transform: translate(-50%, 60%);
-} */
-
 .buttons {
     position: absolute;
+    /* margin-top: 40%; */
+    /* margin-right: 80%; */
+    /* margin-left: 20%; */
     top: 50%;
     left: 50%;
     z-index: 2;
-    /* transform: translate(-50%); */
-    /* color: rgb(255, 255, 255);  */
-
-
-    /* font-weight: normal; 
-    text-decoration: none; 
-    font-style: normal;  */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
-#about_me_button_div {
-    transform: translate(-50%, -50%);
+.buttons div {
+    -webkit-appearance: none ! important;
 }
 
-#about_me {
+.buttons div button {
     font-family: "Press Start 2P", "Bungee Shade", sans-serif;
     font-size: 15px;
     line-height: 29px;
     padding: 11px;
-    border-radius: 0px;
-}
-
-#things_i_do_button_div {
-    transform: translate(-50%, 50%);
-}
-
-#what_i_do {
-    font-family: "Press Start 2P", "Bungee Shade", sans-serif;
-    font-size: 15px;
-    line-height: 29px;
-    padding: 11px;
-    border-radius: 0px;
-}
-
-#where_i_am_button_div {
-    transform: translate(-50%, 150%);
-}
-
-#where_i_am {
-    font-family: "Press Start 2P", "Bungee Shade", sans-serif;
-    font-size: 15px;
-    line-height: 29px;
-    padding: 11px;
-    border-radius: 0px;
+    border-radius: 1px;
+    color: black;
+    background-color: white;
 }
