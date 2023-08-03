@@ -1,5 +1,5 @@
 let rows, cols, resolution
-let cells = [[]]
+let cells
 let w, h
 
 let cnv = document.getElementById("defaultCanvas0")
@@ -25,8 +25,6 @@ function setup() {
             cells[i][j] = Math.round(Math.random() * 0.59)
         }
     }
-
-    console.log(mod(10, -4))
 }
 
 function draw() {
