@@ -9,7 +9,7 @@ function setup() {
     w = window.screen.width
     // h = document.documentElement.scrollHeight
     // h = window.screen.height
-    h = 2000;
+    h = 2400;
 
     console.log(h)
 
