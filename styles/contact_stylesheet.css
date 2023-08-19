@@ -6,6 +6,9 @@ body {
     width: 100%;
     height: 100%;
     background: #4d4d4d;
+    height: auto;
+    font-family: "Press Start 2P", "Bungee Shade", sans-serif;
+    color: white;
 }
 
 .p5canvas {
@@ -35,13 +38,9 @@ body {
 .header_main_nav ul li {
     display: inline;
     float: left;
-    /* margin-right: 10px; */
 }
 
 .header_main_nav ul li a {
-    /* list-style: none; */
-    /* list-style-type: none; */
-
     padding: 0 20px;
     text-transform: uppercase;
     font-family: "Press Start 2P", "Bungee Shade", sans-serif;
@@ -59,3 +58,75 @@ body {
 #header_list {
     list-style-type: none;
 }
+
+#title {
+    height: auto;
+    margin: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#title h3,
+h1 {
+    z-index: 1;
+    position: relative;
+}
+
+#content_wrapper {
+    position: relative;
+    margin-left: 5%;
+    align-content: middle;
+    justify-items: center;
+}
+
+#content_wrapper ul {
+    list-style: none;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+#content_wrapper ol {
+    margin-bottom: 20px;
+}
+
+#content_wrapper span {
+    color: salmon;
+}
+
+#content_wrapper ul li {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+#content_wrapper ul li a {
+    color: white;
+}
+
+#professional_stuff ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#journals ol li a:hover {
+    color: black;
+}
+
+#journals ol li a {
+    color: salmon;
+}
+
+#social_stuff ul li a {
+    color: white
+}
+
+#social_stuff ul li a:hover {
+    color: black
+}
+
+#other_stuff ul li a:hover {
+    color: black;
+}
+
+/* #page_wrapper {
+    border: 2px solid black;
+} */
