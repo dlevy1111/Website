@@ -75,8 +75,10 @@ h1 {
 
 .images-container {
     max-width: 80%;
+    /* width: 20%; */
     margin-left: auto;
     margin-right: auto;
+    /* float: left; */
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -84,11 +86,34 @@ h1 {
 
 .images-container img {
     max-width: 100%;
+}
+
+.images-container .image_wrapper {
+    max-width: 100%;
     align-items: left;
+    align-content: end;
+    float: left;
+    object-fit: cover;
+    display: flex;
+}
+
+@media (max-width: 620px) {
+    .images-container .image_wrapper {
+        display: initial;
+    }
 }
 
 .images-container .description {
     padding-left: 1%;
     z-index: 10;
     width: 50%;
+    /* text-align: justify; */
+    flex-wrap: wrap;
+}
+
+.images-container div {
+    display: inline;
+    flex-wrap: nowrap;
+    /* float: right; */
+    /* width: 20%; */
 }
