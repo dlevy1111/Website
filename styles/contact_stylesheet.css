@@ -111,7 +111,15 @@ h1 {
     color: black;
 }
 
+#book_chapters ol li a:hover {
+    color: black;
+}
+
 #journals ol li a {
+    color: salmon;
+}
+
+#book_chapters ol li a {
     color: salmon;
 }
 
@@ -126,7 +134,3 @@ h1 {
 #other_stuff ul li a:hover {
     color: black;
 }
-
-/* #page_wrapper {
-    border: 2px solid black;
-} */
