@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="A personal website for David Levy.">
+    <meta name="keywords"
+        content="david, levy, engineering, student, ku, kansas, university, about, website, portfolio">
+    <meta name="author" content="David Levy">
+    <meta name="viewport" content="width-device-width, minimum-scale=1.0, initial-scale=1.0">
+    <title>David Levy</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/things_i_do_stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <script src="scripts/p5.js"></script>
+</head>
+
+<body>
+
+    <div id="page_wrapper">
+        <header class="header_main">
+            <nav class="header_main_nav">
+                <ul id="header_list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="things_i_do.html">Things I do</a></li>
+                    <li><a href="contact.html">Where I am</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="p5canvas">
+        </div>
+        <div id="title">
+            <h1>Things I Do</h1>
+            <h3>
+                <!-- a water-based, computer engineering student who is not a graphic designer -->
+                computer engineering, quantum research, little projects
+            </h3>
+        </div>
+
+        <div class="images-container">
+            <div class="image_wrapper">
+                <div class="image" id="unfinished_radio">
+                    <img src="images/unfinished_radio.png" alt="A radio that a friend and David made">
+
+                </div>
+                <div class="image" id="finished_radio">
+                    <img src="images/finished_radio.png" alt="A radio that a friend and David made">
+                </div>
+            </div>
+            <div class="description">
+                <p class="text" id="text_text">This is the radio that a friend and I made. The left picture is the
+                    air-core inductor
+                    that we wound (for a value of
+                    ~13.5 uH). The finished product is on the right, though we will be revisiting this project due to
+                    unforseen issues with the speaker.</p>
+            </div>
+        </div>
+
+        <div class="images-container">
+            <div class="description">
+                <!-- <p class="text">This is the photo I use for when I need to be professional. For example, I use it as a
+                    picture for my research group. Currently, I do research with the KUARQ group at the
+                    University of
+                    Kansas on the topic of quantum computing. To help
+                    familiarize myself with the topic, I wrote a quantum circuit simulator from scratch. Links to these
+                    pages can be found on the WHERE I AM page.</p> -->
+                <p class="text">
+                    This is the photo I use when I need to be professional. For example, this is the face you see when
+                    you find my name on my research group's page. I currently do research with the KUARQ group at the
+                    University of Kansas on the topic of quantum computing. To help familiarize myself with the field, I
+                    made my own quantum circuit simulator. More information can be found on the WHERE I AM page.
+                </p>
+            </div>
+            <div class="image_wrapper">
+                <div class="image" id="research_david">
+                    <img src="images/research_pic.png" alt="David's linkedin and research picture. No theft please.">
+                </div>
+                <div class="image" id="quantum_simulator">
+                    <img src="images/quantum_sim.png" alt="A snippit of code from David's quantum simulator">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="images-container">
+            <div class="image_wrapper">
+                <div class="image" id="teaching">
+                    <img src="images/si_leader.jpeg" alt="David teaching about the laplace transform">
+                </div>
+                <div class="image" id="other_teaching_i_guess">
+                    <img src="images/nodal_analysis.png" alt="A circuits problem that was solved using nodal analysis">
+                </div>
+            </div>
+            <div class="description">
+                <p class="text">Right now, I work as the supplemental instructor for the introductory linear circuit
+                    analysis class at KU. As a supplemental instructor, I hold semiweekly sessions where I reteach and
+                    further explain concepts from class, guide and assist students through challenging
+                    homework questions, and provide study tips for upcoming exams.
+                    <!-- Through this role, I believe I have
+                    helped to support many students who would have had to retake the class or otherwise dropped their
+                    major. -->
+
+                </p>
+            </div>
+
+        </div>
+
+        <div class="images-container">
+            <div class="description">
+                <p class="text">
+                    From Sept. 2023 to Feb 2024, I led a metal detector project with KU's IEEE club. The goal was to
+                    make a few metal detecting circuits before the end of February. We were able to
+                    complete this project ontime and underbudget. The left image features a schematic from Overton,
+                    Moreland - Inside the Metal Detector (2016, Geotech Press), which served as reference for the
+                    development of the devices.
+                </p>
+            </div>
+            <div class="image_wrapper">
+                <div class="image" id="david_presenting">
+                    <img src="images/david_presenting.png" alt="David presenting about his metal detector project">
+                </div>
+                <div class="image" id="the_finished_detector">
+                    <img src="images/metal_detector.png" alt="The finished metal detector">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="scripts/drippingcave.js"></script>
+
+</body>
+
+</html>
