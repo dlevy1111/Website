@@ -82,7 +82,7 @@ h1 {
 #content_wrapper ul {
     list-style: none;
     list-style-type: none;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 #content_wrapper ol {
