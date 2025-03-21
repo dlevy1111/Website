@@ -76,7 +76,7 @@ h1 {
     position: relative;
     margin-left: 5%;
     align-content: middle;
-    justify-items: center;
+    justify-items: left;
 }
 
 #content_wrapper ul {
